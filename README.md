@@ -1,4 +1,4 @@
-# CMD Explain
+# MD2HTML
 A simple and fast CLI tool that converts Markdown files into static HTML pages.
 
 ## Features
@@ -39,7 +39,7 @@ Make sure Go is installed
 Unix / macOS:
 ```bash
 # 1. clone
-git clone https://github.com/<youruser>/md2html.git
+git clone https://github.com/MahdiMirshafiee/MD2HTML.git
 cd md2html
 
 # 2. prepare dependencies
@@ -54,7 +54,7 @@ sudo mv md2html /usr/local/bin/
 
 Windows (PowerShell):
 ```bash
-git clone https://github.com/<youruser>/md2html.git
+git clone https://github.com/MahdiMirshafiee/MD2HTML.git
 cd md2html
 go mod tidy
 go build -o md2html.exe main.go
