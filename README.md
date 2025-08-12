@@ -68,16 +68,17 @@ Best for non-Go users.
 
 1. Go to the [Releases](https://github.com/MahdiMirshafiee/md2html/releases) page.
 2. Download the binary for your OS & architecture.
-3. Make it executable (Linux/macOS):
+3. 
+4. Make it executable (Linux/macOS):
 
 ```bash
-chmod +x md2html-*
+chmod +x md2html
 ```
-(Optional) Move it to a folder in your PATH so it’s accessible everywhere:
+5. (Optional) Move it to a folder in your PATH so it’s accessible everywhere:
 
 ```bash
 # Linux / macOS
-sudo mv md2html-* /usr/local/bin/md2html
+sudo mv md2html /usr/local/bin/md2html
 
 # Windows: Place md2html.exe in a folder that's already in PATH, 
 # or add its folder to the PATH environment variable.
