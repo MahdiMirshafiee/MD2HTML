@@ -1,4 +1,4 @@
-# CMD Explain
+# MD2HTML
 A simple and fast CLI tool that converts Markdown files into static HTML pages.
 
 ## Features
