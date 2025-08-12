@@ -71,9 +71,9 @@ func main() {
 		}
 		code {
 			font-family: monospace;
-			background-color: #161b22 !important;
+			background-color: #3a3a3b !important;
 			color: #d1d5db !important;
-			padding: 3px 6px;
+			padding: 4px 6px;
 			border-radius: 3px;
 		}
 		a {
@@ -83,6 +83,10 @@ func main() {
 		a:hover {
 			text-decoration: underline;
 		}
+  		img {
+    		max-width: 100%;
+    		height: auto;
+  		}
 		</style>
 	</head>
 	<body>` + htmlContent + `</body></html>`
