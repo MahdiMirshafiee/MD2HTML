@@ -68,13 +68,22 @@ Best for non-Go users.
 
 1. Go to the [Releases](https://github.com/MahdiMirshafiee/md2html/releases) page.
 2. Download the binary for your OS & architecture.
-3. 
-4. Make it executable (Linux/macOS):
+3. should rename the binary file:
+
+```bash
+# Unix / macOS
+mv md2html-* md2html
+# windows
+Rename-Item md2html-windows-amd64.exe md2html.exe
+```
+
+Make it executable (Linux/macOS):
 
 ```bash
 chmod +x md2html
 ```
-5. (Optional) Move it to a folder in your PATH so it’s accessible everywhere:
+
+(Optional) Move it to a folder in your PATH so it’s accessible everywhere:
 
 ```bash
 # Linux / macOS
