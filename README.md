@@ -54,7 +54,7 @@ sudo mv md2html /usr/local/bin/
 
 Windows (PowerShell):
 ```bash
-git clone https://github.com/<youruser>/md2html.git
+git clone https://github.com/MahdiMirshafiee/MD2HTML.git
 cd md2html
 go mod tidy
 go build -o md2html.exe main.go
